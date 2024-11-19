@@ -4,31 +4,31 @@ function Team() {
   const teamMembers = [
     {
       id: 1,
-      name: "John Doe",
+      name: "Syed Muntasin Fayaz",
       role: "AI Developer",
-      image: "ai-developer.jpg", // Replace with the actual image path
+      image: "fayaz.jpeg", 
       description: "Specializes in building deep learning models for innovative solutions.",
     },
     {
       id: 2,
-      name: "Jane Smith",
+      name: "Mahmudul Hasan",
       role: "Frontend Developer",
-      image: "frontend-developer1.jpg", // Replace with the actual image path
+      image: "mahmudul.jpg", 
       description: "Crafts interactive and user-friendly interfaces with modern frameworks.",
     },
     {
       id: 3,
-      name: "Mike Johnson",
-      role: "Frontend Developer",
-      image: "frontend-developer2.jpg", // Replace with the actual image path
-      description: "Ensures seamless user experiences with clean and efficient code.",
+      name: "Md. Mamun Hossain",
+      role: "FullStack Developer",
+      image: "mamun.jpeg", 
+      description: "Ensures seamless user experiences with clean and efficient code, robust server-side applications and APIs for scalable systems",
     },
     {
       id: 4,
-      name: "Alice Brown",
-      role: "Backend Developer",
-      image: "backend-developer.jpg", // Replace with the actual image path
-      description: "Develops robust server-side applications and APIs for scalable systems.",
+      name: "Jarziz Ahmed",
+      role: "UI/UX Designer",
+      image: "jarziz.jpeg", 
+      description: "Design User interaface for the modern application.",
     },
   ];
 
