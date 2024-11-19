@@ -23,14 +23,14 @@
     ];
 
     return (
-        <section className="py-4 lg:py-8  rounded-2xl mt-4 lg:mt-20">
+        <section className="py-4 lg:h-screen lg:py-8  rounded-2xl mt-4 lg:mt-20">
         <div className="max-w-7xl mx-auto px-4 ">
             <h2 className="text-3xl font-bold text-center text-blue-800 mb-8">Our Products</h2>
             <div className="grid grid-cols-1  lg:grid-cols-3 gap-8">
             {products.map((product, index) => (
                 <div
                 key={index}
-                className="card lg:w-96 p-4 border-2 border-zinc-500 shadow-md hover:shadow-xl transition-shadow duration-300 rounded-lg"
+                className="card hover:border-blue-900 lg:w-96 p-4 border-2 border-zinc-500 shadow-md hover:shadow-xl transition-shadow duration-300 rounded-lg"
                 >
                 <figure>
                     <img
