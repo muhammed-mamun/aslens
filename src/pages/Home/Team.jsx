@@ -33,7 +33,7 @@ function Team() {
   ];
 
   return (
-    <section className="lg:py-12 py-4">
+    <section id="team" className="lg:h-screen lg:py-12 py-4">
       <div className="max-w-max mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Our Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
