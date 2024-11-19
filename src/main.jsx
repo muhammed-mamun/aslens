@@ -7,6 +7,7 @@ import App from './App.jsx'
 import './index.css'
 import Root from './pages/rootElement/root.jsx'
 import ErrorPage from './pages/errorElement/ErrorPage.jsx'
+import Try from './pages/Try.jsx'
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <App/>,
       },
+      {
+        path: "try-now",
+        element: <Try/>
+      }
     ]
   },
 ]);
